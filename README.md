@@ -39,5 +39,3 @@ Indexes are created idempotently on application startup. Do not commit `.env`, c
 - Analytics are implemented with MongoDB aggregation pipelines.
 - `REVIEW.md` records starter defects; `DECISIONS.md` explains key design choices.
 
-## Before submission
-Run the API against MongoDB 7.0 and test boundary cases, including concurrent punch-ins/punch-outs, overnight shifts, half-day rounding, legacy documents, employee-month working days, leaderboard ties, and trend ranges. The provided nine sample records are not sufficient by themselves to prove every hidden edge case.
